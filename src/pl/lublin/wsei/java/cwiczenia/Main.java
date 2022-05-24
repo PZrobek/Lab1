@@ -36,10 +36,26 @@ public class Main {
 ////wypisaæ na ekranie tekst Nazywaliœmy to „witamin¹ B3” (trzeba u¿yæ prefiksowania \”)
 //        System.out.println("Nazywaliœmy to \"witamin¹ B3\"\n");
 
-// wypisaæ tabelkê funkcji sin dla k¹tów od 0 do 360 stopni co 10 stopni:
-        System.out.printf("alfa\tsin(alfa)\n");
-        for (int i = 0; i < 370; i+=10)
-            System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*Math.PI));
+//// wypisaæ tabelkê funkcji sin dla k¹tów od 0 do 360 stopni co 10 stopni:
+//        System.out.printf("alfa\tsin(alfa)\n");
+//        for (int i = 0; i < 370; i+=10)
+//            System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*Math.PI));
+
+// wypisaæ tabelkê logarytmów o podstawie 2 oraz akumulowan¹ sumê kolejnych potêg liczby 2
+        System.out.print("arg\tlog2(arg)\tsum(arg)\n");
+        for (int i = 1, pow = 1; i < 100; i *= 2, pow++) {
+            System.out.printf("%-5s\t%-5s\t%5s\t\n", i, log2(i), sumPow(pow));
+            }
+    }
+            static int log2(int arg) {
+                return (int) (Math.log(arg) / Math.log(2));
+            }
+            static int sumPow(int arg) {
+                var sum = 0;
+                for (int j = 0; j < arg; j++) {
+                    sum += Math.pow(2, j);
+                }
+                return sum;
     }
 }
 
