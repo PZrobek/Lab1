@@ -33,8 +33,13 @@ public class Main {
 //        String s = "jakiœ tekst";
 //        System.out.printf("a = %d, b = %.2f, s = %20s %n",a,b,s);
 
-//wypisaæ na ekranie tekst Nazywaliœmy to „witamin¹ B3” (trzeba u¿yæ prefiksowania \”)
-        System.out.println("Nazywaliœmy to \"witamin¹ B3\"\n");
+////wypisaæ na ekranie tekst Nazywaliœmy to „witamin¹ B3” (trzeba u¿yæ prefiksowania \”)
+//        System.out.println("Nazywaliœmy to \"witamin¹ B3\"\n");
+
+// wypisaæ tabelkê funkcji sin dla k¹tów od 0 do 360 stopni co 10 stopni:
+        System.out.printf("alfa\tsin(alfa)\n");
+        for (int i = 0; i < 370; i+=10)
+            System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*Math.PI));
     }
 }
 
