@@ -9,8 +9,8 @@ import java.util.Scanner;
  * @author Piotr èrÛbek
  * @version Lab1
  */
-public class Main {
-    public static void main(String[] args) {
+//public class Main {
+//    public static void main(String[] args) {
 //        //Komenda wypisujπca tekst na ekranie
 //        System.out.println("Hello Java World\n");
 //
@@ -81,12 +81,30 @@ public class Main {
 //            System.out.printf("Wynik dodawania %d + %d = %d%n", liczba1, liczba2, liczba1 + liczba2);
 //        } while (true);
 
-// Program do wypisania postaci dwÛjkowej i szesnastkowej podanej przez uøytkownika liczby
+//// Program do wypisania postaci dwÛjkowej i szesnastkowej podanej przez uøytkownika liczby
+//        Scanner input = new Scanner(System.in);
+//        int num1;
+//        System.out.print("Podaj liczbÍ, aby wypisaÊ w postaci dwÛjkowej i szesnastkowej: ");
+//            num1 = input.nextInt();
+//        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1, Integer.toBinaryString(num1), Integer.toHexString(num1));
+//
+
+// Udoskonalony powyøszy program z zastosowaniem metody leftPad
+public class Main {
+    public static String leftPad(String aText, char aChar, int aWidth){
+        String res = aText;
+        for (int i = 0; i< aWidth - aText.length();i++)
+            res = aChar + res;
+        return res;
+    }
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num1;
         System.out.print("Podaj liczbÍ, aby wypisaÊ w postaci dwÛjkowej i szesnastkowej: ");
-            num1 = input.nextInt();
-        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1, Integer.toBinaryString(num1), Integer.toHexString(num1));
+        num1 = input.nextInt();
+        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1,
+                leftPad(Integer.toBinaryString(num1),'0',8),
+                leftPad(Integer.toHexString(num1),'0',5));
     }
 }
 
