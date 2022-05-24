@@ -27,12 +27,14 @@ public class Main {
 //        System.out.print("ma\n");
 //        System.out.print("kota\n");
 
-// zadeklarowaæ trzy zmienne typów int, double i string i wypisaæ ich wartoœæ za pomoc¹ printf;
-        int a = 3;
-        double b = 4.21;
-        String s = "jakiœ tekst";
-        System.out.printf("a = %d, b = %.2f, s = %20s %n",a,b,s);
+//// zadeklarowaæ trzy zmienne typów int, double i string i wypisaæ ich wartoœæ za pomoc¹ printf;
+//        int a = 3;
+//        double b = 4.21;
+//        String s = "jakiœ tekst";
+//        System.out.printf("a = %d, b = %.2f, s = %20s %n",a,b,s);
 
+//wypisaæ na ekranie tekst Nazywaliœmy to „witamin¹ B3” (trzeba u¿yæ prefiksowania \”)
+        System.out.println("Nazywaliœmy to \"witamin¹ B3\"\n");
     }
 }
 
