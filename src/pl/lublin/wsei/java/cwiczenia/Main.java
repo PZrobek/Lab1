@@ -1,6 +1,8 @@
 package pl.lublin.wsei.java.cwiczenia;
 
 
+import pl.lublin.wsei.java.cwiczenia.mylib.Account;
+
 import java.util.Scanner;
 
 /**
@@ -89,22 +91,26 @@ import java.util.Scanner;
 //        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1, Integer.toBinaryString(num1), Integer.toHexString(num1));
 //
 
-// Udoskonalony powy¿szy program z zastosowaniem metody leftPad
+//// Udoskonalony powy¿szy program z zastosowaniem metody leftPad
+//public class Main {
+//    public static String leftPad(String aText, char aChar, int aWidth){
+//        String res = aText;
+//        for (int i = 0; i< aWidth - aText.length();i++)
+//            res = aChar + res;
+//        return res;
+//    }
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
+//        int num1;
+//        System.out.print("Podaj liczbê, aby wypisaæ w postaci dwójkowej i szesnastkowej: ");
+//        num1 = input.nextInt();
+//        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1,
+//                leftPad(Integer.toBinaryString(num1),'0',8),
+//                leftPad(Integer.toHexString(num1),'0',5));
+
 public class Main {
-    public static String leftPad(String aText, char aChar, int aWidth){
-        String res = aText;
-        for (int i = 0; i< aWidth - aText.length();i++)
-            res = aChar + res;
-        return res;
-    }
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int num1;
-        System.out.print("Podaj liczbê, aby wypisaæ w postaci dwójkowej i szesnastkowej: ");
-        num1 = input.nextInt();
-        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1,
-                leftPad(Integer.toBinaryString(num1),'0',8),
-                leftPad(Integer.toHexString(num1),'0',5));
+        System.out.printf("%s%n",Account.capitalize("stanis£aw maruSARz"));
     }
 }
 
