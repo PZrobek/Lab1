@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fba69a6-8283-449e-b4ba-2ebc8080bb78" name="Changes" comment="Lab1 - Program wypisujący tabelkę logarytmów o podstawie 2 oraz akumulowaną sumę kolejnych potęg liczby 2">
+    <list default="true" id="1fba69a6-8283-449e-b4ba-2ebc8080bb78" name="Changes" comment="Lab1 - Dodawanie liczb wprowadzonych przez użytkownika">
       <change beforePath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <workItem from="1652457986111" duration="13804000" />
       <workItem from="1653376537280" duration="2393000" />
       <workItem from="1653410533459" duration="975000" />
-      <workItem from="1653412217215" duration="4769000" />
+      <workItem from="1653412217215" duration="5047000" />
     </task>
     <task id="LOCAL-00001" summary="Lab1">
       <created>1647626596888</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653417461805</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lab1 - Dodawanie liczb wprowadzonych przez użytkownika">
+      <created>1653418484739</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653418484739</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +213,8 @@
     <MESSAGE value="Lab1 - Wypisanie na ekranie tekstu (Nazywaliśmy to „witaminą B3”) przy użyciu prefiksowania" />
     <MESSAGE value="Lab1 - Wypisanie tabelki funkcji sin dla kątów od 0 do 360 stopni co 10 stopni" />
     <MESSAGE value="Lab1 - Program wypisujący tabelkę logarytmów o podstawie 2 oraz akumulowaną sumę kolejnych potęg liczby 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab1 - Program wypisujący tabelkę logarytmów o podstawie 2 oraz akumulowaną sumę kolejnych potęg liczby 2" />
+    <MESSAGE value="Lab1 - Dodawanie liczb wprowadzonych przez użytkownika" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab1 - Dodawanie liczb wprowadzonych przez użytkownika" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

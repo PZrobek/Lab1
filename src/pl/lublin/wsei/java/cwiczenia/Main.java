@@ -59,14 +59,27 @@ public class Main {
 //                }
 //                return sum;
 
-// Dodawanie liczb wprowadzonych przez u¿ytkownika
-        Scanner input = new Scanner(System.in);
-        int num1, num2;
-        System.out.print("Podaj pierwsz¹ liczbê: ");
-            num1 = input.nextInt();
-        System.out.print("Podaj drug¹ liczbê: ");
-            num2 = input.nextInt();
-        System.out.printf("Wynik dodawania %d + %d = %d%n", num1, num2, num1 + num2);
+//// Dodawanie liczb wprowadzonych przez u¿ytkownika
+//        Scanner input = new Scanner(System.in);
+//        int num1, num2;
+//        System.out.print("Podaj pierwsz¹ liczbê: ");
+//            num1 = input.nextInt();
+//        System.out.print("Podaj drug¹ liczbê: ");
+//            num2 = input.nextInt();
+//        System.out.printf("Wynik dodawania %d + %d = %d%n", num1, num2, num1 + num2);
+
+//Sprawdzenie dzia³ania programu z wykorzystaniem pêtli do, która powtarza pytanie o argumenty i wypisuje wynik
+        Scanner wpisz = new Scanner(System.in);
+        int liczba1 = 0, liczba2 = 0;
+        do {
+            System.out.print("Podaj pierwsz¹ liczbê: ");
+            liczba1 = wpisz.nextInt();
+            if (liczba1 == 0) break;
+            System.out.print("Podaj drug¹ liczbê: ");
+            liczba2 = wpisz.nextInt();
+            if (liczba2 == 0) break;
+            System.out.printf("Wynik dodawania %d + %d = %d%n", liczba1, liczba2, liczba1 + liczba2);
+        } while (true);
 
     }
 }
