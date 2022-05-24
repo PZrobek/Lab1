@@ -1,6 +1,8 @@
 package pl.lublin.wsei.java.cwiczenia;
 
 
+import java.util.Scanner;
+
 /**
  * Komentarz javadoc w kodzie Ÿród³owym
  *
@@ -41,21 +43,31 @@ public class Main {
 //        for (int i = 0; i < 370; i+=10)
 //            System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*Math.PI));
 
-// wypisaæ tabelkê logarytmów o podstawie 2 oraz akumulowan¹ sumê kolejnych potêg liczby 2
-        System.out.print("arg\tlog2(arg)\tsum(arg)\n");
-        for (int i = 1, pow = 1; i < 100; i *= 2, pow++) {
-            System.out.printf("%-5s\t%-5s\t%5s\t\n", i, log2(i), sumPow(pow));
-            }
-    }
-            static int log2(int arg) {
-                return (int) (Math.log(arg) / Math.log(2));
-            }
-            static int sumPow(int arg) {
-                var sum = 0;
-                for (int j = 0; j < arg; j++) {
-                    sum += Math.pow(2, j);
-                }
-                return sum;
+//// wypisaæ tabelkê logarytmów o podstawie 2 oraz akumulowan¹ sumê kolejnych potêg liczby 2
+//        System.out.print("arg\tlog2(arg)\tsum(arg)\n");
+//        for (int i = 1, pow = 1; i < 100; i *= 2, pow++) {
+//            System.out.printf("%-5s\t%-5s\t%5s\t\n", i, log2(i), sumPow(pow));
+//            }
+//    }
+//            static int log2(int arg) {
+//                return (int) (Math.log(arg) / Math.log(2));
+//            }
+//            static int sumPow(int arg) {
+//                var sum = 0;
+//                for (int j = 0; j < arg; j++) {
+//                    sum += Math.pow(2, j);
+//                }
+//                return sum;
+
+// Dodawanie liczb wprowadzonych przez u¿ytkownika
+        Scanner input = new Scanner(System.in);
+        int num1, num2;
+        System.out.print("Podaj pierwsz¹ liczbê: ");
+            num1 = input.nextInt();
+        System.out.print("Podaj drug¹ liczbê: ");
+            num2 = input.nextInt();
+        System.out.printf("Wynik dodawania %d + %d = %d%n", num1, num2, num1 + num2);
+
     }
 }
 
