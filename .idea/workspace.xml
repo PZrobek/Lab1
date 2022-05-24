@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fba69a6-8283-449e-b4ba-2ebc8080bb78" name="Changes" comment="Lab1 - Zastosowanie metod print, println" />
+    <list default="true" id="1fba69a6-8283-449e-b4ba-2ebc8080bb78" name="Changes" comment="Lab1 - Zastosowanie metod print, println">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +82,7 @@
       <workItem from="1652457986111" duration="13804000" />
       <workItem from="1653376537280" duration="2393000" />
       <workItem from="1653410533459" duration="975000" />
+      <workItem from="1653412217215" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="Lab1">
       <created>1647626596888</created>
@@ -122,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653409967293</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lab1 - Zastosowanie metod print, println">
+      <created>1653412295958</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653412295958</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +150,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
