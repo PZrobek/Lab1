@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fba69a6-8283-449e-b4ba-2ebc8080bb78" name="Changes" comment="Lab1 - Udoskonalony program do wypisania postaci dwójkowej i szesnastkowej podanej przez użytkownika liczby z zastosowaniem metody leftPad">
-      <change afterPath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/mylib/Account.java" afterDir="false" />
+    <list default="true" id="1fba69a6-8283-449e-b4ba-2ebc8080bb78" name="Changes" comment="Lab1 - Operacja korygowania pisowni jako oddzielna metoda klasy">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/mylib/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/lublin/wsei/java/cwiczenia/mylib/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1652457986111" duration="13804000" />
       <workItem from="1653376537280" duration="2393000" />
       <workItem from="1653410533459" duration="975000" />
-      <workItem from="1653412217215" duration="11887000" />
+      <workItem from="1653412217215" duration="21432000" />
     </task>
     <task id="LOCAL-00001" summary="Lab1">
       <created>1647626596888</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653420938208</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Lab1 - Operacja korygowania pisowni jako oddzielna metoda klasy">
+      <created>1653431529314</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653431529314</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +255,8 @@
     <MESSAGE value="Lab1 - Dodawanie liczb, Sprawdzenie działania programu z wykorzystaniem pętli do, która powtarza pytanie o argumenty i wypisuje wynik" />
     <MESSAGE value="Lab1 - Program do wypisania postaci dwójkowej i szesnastkowej podanej przez użytkownika liczby" />
     <MESSAGE value="Lab1 - Udoskonalony program do wypisania postaci dwójkowej i szesnastkowej podanej przez użytkownika liczby z zastosowaniem metody leftPad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab1 - Udoskonalony program do wypisania postaci dwójkowej i szesnastkowej podanej przez użytkownika liczby z zastosowaniem metody leftPad" />
+    <MESSAGE value="Lab1 - Operacja korygowania pisowni jako oddzielna metoda klasy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab1 - Operacja korygowania pisowni jako oddzielna metoda klasy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

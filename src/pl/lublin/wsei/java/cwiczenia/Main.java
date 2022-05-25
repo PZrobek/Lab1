@@ -6,20 +6,20 @@ import pl.lublin.wsei.java.cwiczenia.mylib.Account;
 import java.util.Scanner;
 
 /**
- * Komentarz javadoc w kodzie Ÿród³owym
+ * Komentarz javadoc w kodzie ÅºrÃ³dÅ‚owym
  *
- * @author Piotr róbek
+ * @author Piotr Å¹rÃ³bek
  * @version Lab1
  */
 //public class Main {
 //    public static void main(String[] args) {
-//        //Komenda wypisuj¹ca tekst na ekranie
+//        //Komenda wypisujÄ…ca tekst na ekranie
 //        System.out.println("Hello Java World\n");
 //
 //    /*
-//    kilka razy u¿yæ print
-//    to samo, z u¿yciem println
-//    wróciæ do print, ale u¿yæ znacznika koñca linii
+//    kilka razy uÅ¼yÄ‡ print
+//    to samo, z uÅ¼yciem println
+//    wrÃ³ciÄ‡ do print, ale uÅ¼yÄ‡ znacznika koÅ„ca linii
 //    */
 //        System.out.print("Ala");
 //        System.out.print("ma");
@@ -31,21 +31,21 @@ import java.util.Scanner;
 //        System.out.print("ma\n");
 //        System.out.print("kota\n");
 
-//// zadeklarowaæ trzy zmienne typów int, double i string i wypisaæ ich wartoœæ za pomoc¹ printf;
+//// zadeklarowaÄ‡ trzy zmienne typÃ³w int, double i string i wypisaÄ‡ ich wartoÅ›Ä‡ za pomocÄ… printf;
 //        int a = 3;
 //        double b = 4.21;
-//        String s = "jakiœ tekst";
+//        String s = "jakiÅ› tekst";
 //        System.out.printf("a = %d, b = %.2f, s = %20s %n",a,b,s);
 
-////wypisaæ na ekranie tekst Nazywaliœmy to „witamin¹ B3” (trzeba u¿yæ prefiksowania \”)
-//        System.out.println("Nazywaliœmy to \"witamin¹ B3\"\n");
+////wypisaÄ‡ na ekranie tekst NazywaliÅ›my to â€witaminÄ… B3â€ (trzeba uÅ¼yÄ‡ prefiksowania \â€)
+//        System.out.println("NazywaliÅ›my to \"witaminÄ… B3\"\n");
 
-//// wypisaæ tabelkê funkcji sin dla k¹tów od 0 do 360 stopni co 10 stopni:
+//// wypisaÄ‡ tabelkÄ™ funkcji sin dla kÄ…tÃ³w od 0 do 360 stopni co 10 stopni:
 //        System.out.printf("alfa\tsin(alfa)\n");
 //        for (int i = 0; i < 370; i+=10)
 //            System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*Math.PI));
 
-//// wypisaæ tabelkê logarytmów o podstawie 2 oraz akumulowan¹ sumê kolejnych potêg liczby 2
+//// wypisaÄ‡ tabelkÄ™ logarytmÃ³w o podstawie 2 oraz akumulowanÄ… sumÄ™ kolejnych potÄ™g liczby 2
 //        System.out.print("arg\tlog2(arg)\tsum(arg)\n");
 //        for (int i = 1, pow = 1; i < 100; i *= 2, pow++) {
 //            System.out.printf("%-5s\t%-5s\t%5s\t\n", i, log2(i), sumPow(pow));
@@ -61,37 +61,37 @@ import java.util.Scanner;
 //                }
 //                return sum;
 
-//// Dodawanie liczb wprowadzonych przez u¿ytkownika
+//// Dodawanie liczb wprowadzonych przez uÅ¼ytkownika
 //        Scanner input = new Scanner(System.in);
 //        int num1, num2;
-//        System.out.print("Podaj pierwsz¹ liczbê: ");
+//        System.out.print("Podaj pierwszÄ… liczbÄ™: ");
 //            num1 = input.nextInt();
-//        System.out.print("Podaj drug¹ liczbê: ");
+//        System.out.print("Podaj drugÄ… liczbÄ™: ");
 //            num2 = input.nextInt();
 //        System.out.printf("Wynik dodawania %d + %d = %d%n", num1, num2, num1 + num2);
 
-////Sprawdzenie dzia³ania programu z wykorzystaniem pêtli do, która powtarza pytanie o argumenty i wypisuje wynik
+////Sprawdzenie dziaÅ‚ania programu z wykorzystaniem pÄ™tli do, ktÃ³ra powtarza pytanie o argumenty i wypisuje wynik
 //        Scanner wpisz = new Scanner(System.in);
 //        int liczba1 = 0, liczba2 = 0;
 //        do {
-//            System.out.print("Podaj pierwsz¹ liczbê: ");
+//            System.out.print("Podaj pierwszÄ… liczbÄ™: ");
 //            liczba1 = wpisz.nextInt();
 //            if (liczba1 == 0) break;
-//            System.out.print("Podaj drug¹ liczbê: ");
+//            System.out.print("Podaj drugÄ… liczbÄ™: ");
 //            liczba2 = wpisz.nextInt();
 //            if (liczba2 == 0) break;
 //            System.out.printf("Wynik dodawania %d + %d = %d%n", liczba1, liczba2, liczba1 + liczba2);
 //        } while (true);
 
-//// Program do wypisania postaci dwójkowej i szesnastkowej podanej przez u¿ytkownika liczby
+//// Program do wypisania postaci dwÃ³jkowej i szesnastkowej podanej przez uÅ¼ytkownika liczby
 //        Scanner input = new Scanner(System.in);
 //        int num1;
-//        System.out.print("Podaj liczbê, aby wypisaæ w postaci dwójkowej i szesnastkowej: ");
+//        System.out.print("Podaj liczbÄ™, aby wypisaÄ‡ w postaci dwÃ³jkowej i szesnastkowej: ");
 //            num1 = input.nextInt();
 //        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1, Integer.toBinaryString(num1), Integer.toHexString(num1));
 //
 
-//// Udoskonalony powy¿szy program z zastosowaniem metody leftPad
+//// Udoskonalony powyÅ¼szy program z zastosowaniem metody leftPad
 //public class Main {
 //    public static String leftPad(String aText, char aChar, int aWidth){
 //        String res = aText;
@@ -102,7 +102,7 @@ import java.util.Scanner;
 //    public static void main(String[] args) {
 //        Scanner input = new Scanner(System.in);
 //        int num1;
-//        System.out.print("Podaj liczbê, aby wypisaæ w postaci dwójkowej i szesnastkowej: ");
+//        System.out.print("Podaj liczbÄ™, aby wypisaÄ‡ w postaci dwÃ³jkowej i szesnastkowej: ");
 //        num1 = input.nextInt();
 //        System.out.printf("DEC = %d, BIN = %s, HEX = %S", num1,
 //                leftPad(Integer.toBinaryString(num1),'0',8),
@@ -110,7 +110,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("%s%n",Account.capitalize("stanis£aw maruSARz"));
+        System.out.printf("%s%n",Account.translit("Ğ¼Ğ¸ĞºĞ¾Ğ»Ğ°Ğ¹ Ğ¼Ğ¸ĞºĞ¾Ğ»Ğ°Ğ¹"));
+        System.out.printf("%s%n",Account.translit("Ğ“Ğ°Ñ€Ñ€Ğ¸ ĞšĞ°ÑĞ¿Ğ°Ñ€Ğ¾Ğ²"));
+        System.out.printf("%s%n",Account.translit("ĞĞ½Ğ´Ñ€Ñ–Ğ¹ Ğ¨ĞµĞ²Ñ‡ĞµĞ½ĞºĞ¾"));
+        System.out.printf("%s%n",Account.translit("Ğ’Ñ–Ñ‚Ğ°Ğ»Ñ–Ğ¹ ĞšĞ»Ğ¸Ñ‡ĞºĞ¾"));
     }
 }
+
 

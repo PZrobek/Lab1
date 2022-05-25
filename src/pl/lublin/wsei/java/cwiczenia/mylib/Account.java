@@ -1,19 +1,28 @@
 package pl.lublin.wsei.java.cwiczenia.mylib;
 
 import org.apache.commons.lang3.StringUtils;
+import static org.apache.commons.lang3.StringUtils.indexOf;
 
 public class Account {
-    private String name;
-    public static String capitalize(String aStr){
-        String[] tokens = StringUtils.split(aStr);
-        for (int i = 0; i < tokens.length; i++)
-            tokens[i] = StringUtils.capitalize(tokens[i]);
-        return StringUtils.join(tokens,' ');
-    }
-    public void setName(String name){
-        this.name = capitalize(name);
-    }
-    public String getName(){
-        return name;
+    private static final String ukrAlphabet = "абвгдеєжзиіїйклмнопрстуфхцчшщьюя";
+    private static final String[] translitRepl = {"a","b","v","g","d","e","je","zh","z",
+            "y","i","ji", "j", "k","l","m","n","o","p","r","s","t","u","f","h","c", "ch",
+            "sh","shh","'","ju","ja"};
+
+    public static String translit(String arg){
+        var transOut = new StringBuilder();
+        arg = (arg.toLowerCase());
+        for (int i = 0; i < arg.length(); i++){
+            var originalLetter = String.valueOf(arg.charAt(i));
+            if (ukrAlphabet.contains(originalLetter)) {
+                var transLetter = translitRepl[indexOf(ukrAlphabet, originalLetter)];
+                transOut.append(transLetter);
+                }
+            else {
+                transOut.append(originalLetter);
+            }
+        }
+        return transOut.toString();
     }
 }
+
